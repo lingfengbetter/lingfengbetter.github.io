@@ -45,7 +45,7 @@ params:
   tocopen: false
 
   assets:
-    disableHLJS: true # to disable highlight.js
+    # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "/assets/favicon.ico"
     favicon16x16: "/assets/favicon-16x16.png"
