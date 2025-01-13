@@ -20,7 +20,7 @@ params:
   keywords: [Blog, ling feng]
   author: ling feng
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["/assets/apple-touch-icon.png"]
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -45,17 +45,17 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
+    disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "/favicon.ico"
-    favicon16x16: "/favicon-16x16.png"
-    favicon32x32: "/favicon-32x32.png"
-    apple_touch_icon: "/apple-touch-icon.png"
+    favicon: "/assets/favicon.ico"
+    favicon16x16: "/assets/favicon-16x16.png"
+    favicon32x32: "/assets/favicon-32x32.png"
+    apple_touch_icon: "/assets/apple-touch-icon.png"
     #safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "ling feng's blog"
-    icon: /apple-touch-icon.png
+    icon: /assets/apple-touch-icon.png
     iconHeight: 35
 
   pagination:
