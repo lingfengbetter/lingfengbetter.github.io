@@ -25,6 +25,7 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
+  math: true
   busuanzi:
     enable: true
 
